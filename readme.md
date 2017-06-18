@@ -1,27 +1,21 @@
-# Laravel PHP Framework
+# Background
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This project is basically made for an institute named VGPT. VGPT is a coaching institute for the preparation of JEE Mains and JEE Advanced. It offers programs for students of classes VI to XII aspiring to excel in JEE.  It is located in Deoghar, Jharkhand. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# Purpose
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+The aim of this project was to make an online education platform for VGPT from where all students of VGPT can learn and practice at any time. VGPT required a platform by which they can keep their students busy in studying and able to trace students performances and feedbacks. My role in this project is as a backend developer.
 
-## Official Documentation
+# About The Project
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+The main project contains three parts one is admin panel plus backed part, other is mobile application part and the last one is UI designing. This project contains only admin panel and backend part which was made by me.
 
-## Contributing
+This project contains an Admin Panel via teachers can register new students in their institute, can upload new tutorials, new questions, DPPS etc of a particular batch. Teachers are also able to see any student performance like in particular test which student top the test or marks of a particular student in that test etc. Even they can host their own test for a particular batch and students able to give that test online via a mobile application. There is also a three type of leaderboard in it like Today Rankboard, Week Rankboard and Month Rankboard. These leaderboard help teacher to track the performance of students and to know what they are doing in their free time. 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+It also contains back-end of the mobile application and admin panel. There is a common database for the both admin part and application part. 
 
-## Security Vulnerabilities
+# Tech Stacks Used
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+1. Laravel – As PHP Framework
+2. MySql – For Database
+3. HTML, CSS, JavaScript, and Bootstrap 
